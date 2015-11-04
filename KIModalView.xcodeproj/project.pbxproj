@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18699B841BE98B23009E2340 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B831BE98B23009E2340 /* main.m */; };
+		18699B871BE98B23009E2340 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B861BE98B23009E2340 /* AppDelegate.m */; };
+		18699B8A1BE98B23009E2340 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B891BE98B23009E2340 /* ViewController.m */; };
+		18699B8D1BE98B23009E2340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18699B8B1BE98B23009E2340 /* Main.storyboard */; };
+		18699B8F1BE98B23009E2340 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18699B8E1BE98B23009E2340 /* Images.xcassets */; };
+		18699B921BE98B23009E2340 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18699B901BE98B23009E2340 /* LaunchScreen.xib */; };
+		18699B9E1BE98B23009E2340 /* KIModalViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699B9D1BE98B23009E2340 /* KIModalViewTests.m */; };
+		18699BB01BE98B4C009E2340 /* KIBasePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699BA91BE98B4C009E2340 /* KIBasePickerView.m */; };
+		18699BB11BE98B4C009E2340 /* KIDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699BAB1BE98B4C009E2340 /* KIDatePickerView.m */; };
+		18699BB21BE98B4C009E2340 /* KIModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699BAD1BE98B4C009E2340 /* KIModalView.m */; };
+		18699BB31BE98B4C009E2340 /* KIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18699BAF1BE98B4C009E2340 /* KIPickerView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18699B981BE98B23009E2340 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18699B761BE98B23009E2340 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18699B7D1BE98B23009E2340;
+			remoteInfo = KIModalView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18699B7E1BE98B23009E2340 /* KIModalView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KIModalView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18699B821BE98B23009E2340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18699B831BE98B23009E2340 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18699B851BE98B23009E2340 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18699B861BE98B23009E2340 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18699B881BE98B23009E2340 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18699B891BE98B23009E2340 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18699B8C1BE98B23009E2340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18699B8E1BE98B23009E2340 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18699B911BE98B23009E2340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18699B971BE98B23009E2340 /* KIModalViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KIModalViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18699B9C1BE98B23009E2340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18699B9D1BE98B23009E2340 /* KIModalViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KIModalViewTests.m; sourceTree = "<group>"; };
+		18699BA81BE98B4C009E2340 /* KIBasePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIBasePickerView.h; sourceTree = "<group>"; };
+		18699BA91BE98B4C009E2340 /* KIBasePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIBasePickerView.m; sourceTree = "<group>"; };
+		18699BAA1BE98B4C009E2340 /* KIDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIDatePickerView.h; sourceTree = "<group>"; };
+		18699BAB1BE98B4C009E2340 /* KIDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIDatePickerView.m; sourceTree = "<group>"; };
+		18699BAC1BE98B4C009E2340 /* KIModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIModalView.h; sourceTree = "<group>"; };
+		18699BAD1BE98B4C009E2340 /* KIModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIModalView.m; sourceTree = "<group>"; };
+		18699BAE1BE98B4C009E2340 /* KIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIPickerView.h; sourceTree = "<group>"; };
+		18699BAF1BE98B4C009E2340 /* KIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIPickerView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18699B7B1BE98B23009E2340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699B941BE98B23009E2340 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18699B751BE98B23009E2340 = {
+			isa = PBXGroup;
+			children = (
+				18699B801BE98B23009E2340 /* KIModalView */,
+				18699B9A1BE98B23009E2340 /* KIModalViewTests */,
+				18699B7F1BE98B23009E2340 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18699B7F1BE98B23009E2340 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18699B7E1BE98B23009E2340 /* KIModalView.app */,
+				18699B971BE98B23009E2340 /* KIModalViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18699B801BE98B23009E2340 /* KIModalView */ = {
+			isa = PBXGroup;
+			children = (
+				18699BA71BE98B4C009E2340 /* KIModalView */,
+				18699B851BE98B23009E2340 /* AppDelegate.h */,
+				18699B861BE98B23009E2340 /* AppDelegate.m */,
+				18699B881BE98B23009E2340 /* ViewController.h */,
+				18699B891BE98B23009E2340 /* ViewController.m */,
+				18699B8B1BE98B23009E2340 /* Main.storyboard */,
+				18699B8E1BE98B23009E2340 /* Images.xcassets */,
+				18699B901BE98B23009E2340 /* LaunchScreen.xib */,
+				18699B811BE98B23009E2340 /* Supporting Files */,
+			);
+			path = KIModalView;
+			sourceTree = "<group>";
+		};
+		18699B811BE98B23009E2340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18699B821BE98B23009E2340 /* Info.plist */,
+				18699B831BE98B23009E2340 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18699B9A1BE98B23009E2340 /* KIModalViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				18699B9D1BE98B23009E2340 /* KIModalViewTests.m */,
+				18699B9B1BE98B23009E2340 /* Supporting Files */,
+			);
+			path = KIModalViewTests;
+			sourceTree = "<group>";
+		};
+		18699B9B1BE98B23009E2340 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18699B9C1BE98B23009E2340 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18699BA71BE98B4C009E2340 /* KIModalView */ = {
+			isa = PBXGroup;
+			children = (
+				18699BA81BE98B4C009E2340 /* KIBasePickerView.h */,
+				18699BA91BE98B4C009E2340 /* KIBasePickerView.m */,
+				18699BAA1BE98B4C009E2340 /* KIDatePickerView.h */,
+				18699BAB1BE98B4C009E2340 /* KIDatePickerView.m */,
+				18699BAC1BE98B4C009E2340 /* KIModalView.h */,
+				18699BAD1BE98B4C009E2340 /* KIModalView.m */,
+				18699BAE1BE98B4C009E2340 /* KIPickerView.h */,
+				18699BAF1BE98B4C009E2340 /* KIPickerView.m */,
+			);
+			path = KIModalView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18699B7D1BE98B23009E2340 /* KIModalView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18699BA11BE98B23009E2340 /* Build configuration list for PBXNativeTarget "KIModalView" */;
+			buildPhases = (
+				18699B7A1BE98B23009E2340 /* Sources */,
+				18699B7B1BE98B23009E2340 /* Frameworks */,
+				18699B7C1BE98B23009E2340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KIModalView;
+			productName = KIModalView;
+			productReference = 18699B7E1BE98B23009E2340 /* KIModalView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18699B961BE98B23009E2340 /* KIModalViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18699BA41BE98B23009E2340 /* Build configuration list for PBXNativeTarget "KIModalViewTests" */;
+			buildPhases = (
+				18699B931BE98B23009E2340 /* Sources */,
+				18699B941BE98B23009E2340 /* Frameworks */,
+				18699B951BE98B23009E2340 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18699B991BE98B23009E2340 /* PBXTargetDependency */,
+			);
+			name = KIModalViewTests;
+			productName = KIModalViewTests;
+			productReference = 18699B971BE98B23009E2340 /* KIModalViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18699B761BE98B23009E2340 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = smartwalle;
+				TargetAttributes = {
+					18699B7D1BE98B23009E2340 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					18699B961BE98B23009E2340 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 18699B7D1BE98B23009E2340;
+					};
+				};
+			};
+			buildConfigurationList = 18699B791BE98B23009E2340 /* Build configuration list for PBXProject "KIModalView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18699B751BE98B23009E2340;
+			productRefGroup = 18699B7F1BE98B23009E2340 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18699B7D1BE98B23009E2340 /* KIModalView */,
+				18699B961BE98B23009E2340 /* KIModalViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18699B7C1BE98B23009E2340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699B8D1BE98B23009E2340 /* Main.storyboard in Resources */,
+				18699B921BE98B23009E2340 /* LaunchScreen.xib in Resources */,
+				18699B8F1BE98B23009E2340 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699B951BE98B23009E2340 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18699B7A1BE98B23009E2340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699BB21BE98B4C009E2340 /* KIModalView.m in Sources */,
+				18699B8A1BE98B23009E2340 /* ViewController.m in Sources */,
+				18699BB01BE98B4C009E2340 /* KIBasePickerView.m in Sources */,
+				18699B871BE98B23009E2340 /* AppDelegate.m in Sources */,
+				18699B841BE98B23009E2340 /* main.m in Sources */,
+				18699BB11BE98B4C009E2340 /* KIDatePickerView.m in Sources */,
+				18699BB31BE98B4C009E2340 /* KIPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18699B931BE98B23009E2340 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18699B9E1BE98B23009E2340 /* KIModalViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18699B991BE98B23009E2340 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18699B7D1BE98B23009E2340 /* KIModalView */;
+			targetProxy = 18699B981BE98B23009E2340 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18699B8B1BE98B23009E2340 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18699B8C1BE98B23009E2340 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18699B901BE98B23009E2340 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18699B911BE98B23009E2340 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18699B9F1BE98B23009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18699BA01BE98B23009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18699BA21BE98B23009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIModalView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18699BA31BE98B23009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KIModalView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18699BA51BE98B23009E2340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIModalViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIModalView.app/KIModalView";
+			};
+			name = Debug;
+		};
+		18699BA61BE98B23009E2340 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KIModalViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KIModalView.app/KIModalView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18699B791BE98B23009E2340 /* Build configuration list for PBXProject "KIModalView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699B9F1BE98B23009E2340 /* Debug */,
+				18699BA01BE98B23009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18699BA11BE98B23009E2340 /* Build configuration list for PBXNativeTarget "KIModalView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699BA21BE98B23009E2340 /* Debug */,
+				18699BA31BE98B23009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18699BA41BE98B23009E2340 /* Build configuration list for PBXNativeTarget "KIModalViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18699BA51BE98B23009E2340 /* Debug */,
+				18699BA61BE98B23009E2340 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18699B761BE98B23009E2340 /* Project object */;
+}
