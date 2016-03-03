@@ -189,7 +189,7 @@
 - (UIBarButtonItem *)cancelButtonItem {
     if (_cancelButtonItem == nil) {
         _cancelButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"取消", nil)
-                                                             style:UIBarButtonItemStyleBordered
+                                                             style:UIBarButtonItemStylePlain
                                                             target:self
                                                             action:@selector(cancel)];
     }
@@ -199,7 +199,7 @@
 - (UIBarButtonItem *)confirmButtonItem {
     if (_confirmButtonItem == nil) {
         _confirmButtonItem = [[UIBarButtonItem alloc] initWithTitle:NSLocalizedString(@"确定", nil)
-                                                              style:UIBarButtonItemStyleBordered
+                                                              style:UIBarButtonItemStylePlain
                                                              target:self
                                                              action:@selector(confirm)];
     }
