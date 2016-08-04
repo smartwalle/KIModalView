@@ -337,12 +337,13 @@ int const KIModalViewDismissWithConfirmTag  = 1;
     if (!self.isShow) {
         return ;
     }
-    [self setIsShow:NO];
     
     BOOL dismissable = self.contentView != nil ? [self.contentView modalViewShouldDismissWithTag:self.dismissTag] : YES;
     if (dismissable == NO) {
         return ;
     }
+    
+    [self setIsShow:NO];
     
     [self endEditing:YES];
     

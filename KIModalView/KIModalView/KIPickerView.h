@@ -16,7 +16,7 @@ typedef NSString *(^KIPickerViewTitleForRowInComponentBlock)    (KIPickerView *p
 typedef UIView *(^KIPickerViewViewForRowInComponentBlock)       (KIPickerView *pickerView, NSInteger row, NSInteger component, UIView *reusingView);
 typedef void(^KIPickerViewDidSelectRowInComponentBlock)         (KIPickerView *pickerView, NSInteger row, NSInteger component);
 
-typedef void(^KIPickerViewDidDismissBlock)   (KIModalView *view, int tag, NSInteger selectedRow, id userInfo);
+typedef void(^KIPickerViewDidDismissBlock)   (KIPickerView *view, int tag, NSInteger selectedRow, id userInfo);
 
 @interface KIPickerView : KIBasePickerView <UIPickerViewDataSource, UIPickerViewDelegate>
 
